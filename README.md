@@ -5,6 +5,8 @@ Assign Date: Session 7.
 Due Date:  Session 13. Can be resubmitted ONE TIME Session 17 if your first submission is in by the first due date.
 
 **Problem Scenario**
+
+
 Metropolitan State University of Denver needs a Java programmer to assist it with creating a grade book application. You have graciously volunteered to help. The university wants to track their students and their grades in various courses. For each student, the university wants to track this information:
 1.	Student id (String – should be a unique value)
 2.	Student first name (String)
