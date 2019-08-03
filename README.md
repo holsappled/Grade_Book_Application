@@ -1,10 +1,10 @@
-CS 2050 - Programming Project # 3
+**CS 2050 - Programming Project # 3**
 
 Assign Date: Session 7.
 
 Due Date:  Session 13. Can be resubmitted ONE TIME Session 17 if your first submission is in by the first due date.
 
-Problem Scenario
+**Problem Scenario**
 Metropolitan State University of Denver needs a Java programmer to assist it with creating a grade book application. You have graciously volunteered to help. The university wants to track their students and their grades in various courses. For each student, the university wants to track this information:
 1.	Student id (String – should be a unique value)
 2.	Student first name (String)
@@ -24,7 +24,7 @@ Note: All your code in this project is in the main class named
 	FirstnameLastName_03	(Use YOUR first and last name!)
 and in the List class you write as specified below. Do not make any changes to the Student and Grade Item classes created for Programming Project # 1 unless you still have to make corrections to it.
 
-Program Requirements
+**Program Requirements**
 
 In Project # 1, we created the Student class and Grade Item class.  In this project, we implement the List class (container) which can be used to create a list of Students and Grade Items.
 The List class implements the MyCollectionInterface. Your main method creates two lists using the List class: one for list of Students and another for list of Grade Items.
@@ -57,7 +57,7 @@ where xx is the input file number, xx = 01, 02, 03, …. You can create multiple
 Your main class does not know the data structure implemented by your List class. We use the same main class with future programming projects with minimal changes. The List class will be modified in a future project to reflect a different data structure.
 
 
-The Main class
+**The Main class**
 
 
 The main method:
@@ -68,7 +68,7 @@ The main method:
 Note: in all cases below, if an error is detected, display a message with useful information to an end user using the err stream and move on to the next test.
 
 
-The processInput method:
+**The processInput method:**
 
 
 1.	Opens the input file – display an error message using the err stream if the file is not found. Include the name of the missing file in the message (Be end-user friendly)
@@ -77,7 +77,7 @@ The processInput method:
 4.	If the first field is STUDENT, calls the processStudentData method passing it the array created by the split method of type String containing Student data. If the first field is GRADE ITEM, calls the processGradeItemData method passing it the array created by the split method of type String containing Grade Item data.
 
 
-The processStudentData method:
+**The processStudentData method:**
 
 
 1.	Receives an array of type String with Student data.
@@ -95,7 +95,7 @@ The processStudentData method:
 
 
 
-The processGradeItemData method:
+**The processGradeItemData method:**
 
 
 1.	Receives an array of type String with GradeItem data
@@ -113,7 +113,7 @@ The processGradeItemData method:
 
 
 
-The generateReport method:
+**The generateReport method:**
 
 
 1.	Calls the toArray method in the List class to get a list of Student objects.
